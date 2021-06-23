@@ -45,6 +45,14 @@ pip3 install -r requirements.txt
 
 ---
 ## Usage
+Under the main block of jsonToCsv.py, modify the direcotries of input file or output file if you want to.
+
+```python
+if __name__ == "__main__": 
+    # The directories of input and output could be changed based on requirements
+    result = InputFile(r"input.json",r"output.csv")
+    result.export_to_csv()
+```  
 To test the application, change current directory to TrackRevenue folder and run: 
 
 ```python

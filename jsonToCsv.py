@@ -27,7 +27,7 @@ class InputFile:
 
 
 if __name__ == "__main__": 
-    # modify file name or input file as required 
+    # The directories of input and output could be changed based on requirements
     result = InputFile(r"input.json",r"output.csv")
     result.export_to_csv()
 
