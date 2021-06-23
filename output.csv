@@ -1,0 +1,5 @@
+,view_classes,view_grades,change_classes,delete_grades,add_classes,add_grades,change_grades,delete_classes
+student1,1,1,0,0,0,0,0,0
+student2,1,1,0,0,0,0,0,0
+teacher,1,1,0,1,0,1,1,0
+principle,1,1,1,0,1,0,0,1
